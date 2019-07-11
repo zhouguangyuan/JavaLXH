@@ -15,6 +15,11 @@ public class ArrayDemo01 {
 		
 		for( int x = 0; x <= 2; x++)
 		{
+			score[x] = x*2 + 1;
+		}
+		
+		for( int x = 0; x <= 2; x++)
+		{
 			System.out.println("score[" + x + "] = " + score[x]);
 		}
 

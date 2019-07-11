@@ -1,0 +1,16 @@
+package ch4.kevin.com;
+
+public class ArrayDemo03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int score [] = null;
+		
+		score = new int[3];
+		
+        System.out.println(score.length);
+
+	}
+
+}

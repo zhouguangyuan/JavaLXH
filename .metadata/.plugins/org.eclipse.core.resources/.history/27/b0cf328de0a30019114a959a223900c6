@@ -1,0 +1,17 @@
+package ch4.kevin.com;
+
+public class ArrayDemo04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int score [] = { 91, 92, 93, 94, 95, 96 };
+		
+		for( int x = 0; x < 6; x++)
+		{
+			System.out.println("score[" + x + "] = " + score[x]);
+		}
+
+	}
+
+}

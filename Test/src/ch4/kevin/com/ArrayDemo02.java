@@ -1,6 +1,6 @@
 package ch4.kevin.com;
 
-public class ArrayDemo01 {
+public class ArrayDemo02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,6 +12,11 @@ public class ArrayDemo01 {
 		System.out.println("score[0] = "+ score[0]);
 		System.out.println("score[1] = "+ score[1]);
 		System.out.println("score[2] = "+ score[2]);
+		
+		for( int x = 0; x <= 2; x++)
+		{
+			score[x] = x*2 + 1;
+		}
 		
 		for( int x = 0; x <= 2; x++)
 		{
