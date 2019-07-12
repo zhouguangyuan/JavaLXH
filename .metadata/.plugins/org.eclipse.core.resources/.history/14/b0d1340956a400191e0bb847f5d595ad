@@ -5,7 +5,7 @@ package ch4.kevin.com;
  * 不需要指明数组的长度，初值的个数即数组长度。声明和赋值必须同时进行，即不可先声明后赋值。
  * */
 
-public class ArrayDemo04 {
+public class ArrayDemo05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
