@@ -1,0 +1,31 @@
+package ch4.kevin.com;
+/**
+ *数组的排序操作
+ * 
+ */
+public class ArrayDemo06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int score [] = { 91, 92, 93, 94, 95, 96 }; //使用静态初始化声明数组
+		
+		for ( int i = 1; i <score.length; i++) {
+			for ( int j = 0; j < score.length; j++ ) {
+				if( score[i] < score[j] ) {
+					int temp = score[i];
+					score[i] = score[j];
+					score[j] = temp;
+				}
+			}
+		}
+		
+		for( int i = 0; i < score.length; i++)   //循环输出
+		{
+			System.out.println(score[i]+"\t");
+		}
+
+
+	}
+
+}
