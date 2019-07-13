@@ -3,7 +3,7 @@ package ch4.kevin.com;
  *数组的排序操作
  * 
  */
-public class ArrayDemo06 {
+public class ArrayDemo07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,6 +18,12 @@ public class ArrayDemo06 {
 					score[j+1] = temp;
 				}
 			}
+			System.out.print("第"+i+"次排序的结果：\t");
+			for( int j = 0; j < score.length; j++)   //循环输出
+			{
+				System.out.print(score[j]+"\t");
+			}
+			System.out.println("");
 		}
 		
 		System.out.print("最终的排序结果为：\t");
