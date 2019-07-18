@@ -4,20 +4,21 @@ public class MethodDemo01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	    printInfo();
-	    printInfo();
-	    printInfo();
+	    printInfo(); //调用printInfo()方法
+	    printInfo();  //调用printInfo()方法
+	    printInfo();  //调用printInfo()方法
 
 	}
 	
-	public static void printInfo() {
-		char c[] = {'H', 'e', 'l', 'l', 'o', ',','L', 'X', 'H' };
+	//在此处，printInfo()方法是由main()方法直接调用，所以一定要加上public static 
+	public static void printInfo() {   //此方法没有返回值
+		char c[] = {'H', 'e', 'l', 'l', 'o', ',','L', 'X', 'H' };  //定议一个字符数组
 		
-		for ( int i = 0; i < c.length; i++) {
+		for ( int i = 0; i < c.length; i++) {  //循环输出
 			System.out.print(c[i]);
 		}
 		
-		System.out.println("");
+		System.out.println("");  //换行
 	}
 
 }

@@ -1,0 +1,20 @@
+package ch4.kevin.com;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2019年7月18日 下午2:55:40 
+ * 类说明 
+ */
+public class MethodDemo05 {
+		public static void main(String[] args) {
+			System.out.println("1、調用fun()方法之前");
+			fun(10);
+			System.out.println("4、調用fun()方法之后");
+			System.out.println();
+		}
+		
+		public static int fun(int x) {
+			if( x==10) {
+				return;
+			}
+		}
+}

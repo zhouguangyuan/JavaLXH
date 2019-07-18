@@ -1,0 +1,24 @@
+package ch4.kevin.com;
+
+public class MethodDemo02 {
+
+	public static void main(String[] args) {
+		int one = addOne(10, 20);
+		float two = addTwo(10.3f, 13.3f); 
+		System.out.println("addOne的计算结果：" + one);
+		System.out.println("addTwo的计算结果：" + two);
+	}
+	
+	public static int addOne( int x, int y) {
+		int temp = 0 ;
+		temp = x + y ;
+		return temp;
+	}
+	
+	public static int addTwo( float x, flaot y) {
+		int temp = 0 ;
+		temp = x + y ;
+		return temp;
+	}
+
+}
