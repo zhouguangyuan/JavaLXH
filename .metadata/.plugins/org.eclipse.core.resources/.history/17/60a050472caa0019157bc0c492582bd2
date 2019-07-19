@@ -1,0 +1,13 @@
+package ch4.kevin.com;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2019年7月19日 下午9:49:57 
+ * 类说明 
+ */
+public class ArrayRefDemo04 {
+
+	public static void main(String[] args) {
+		int[] score = { 67, 89, 87, 69, 90, 100, 75, 90 } ;
+	}
+
+}
