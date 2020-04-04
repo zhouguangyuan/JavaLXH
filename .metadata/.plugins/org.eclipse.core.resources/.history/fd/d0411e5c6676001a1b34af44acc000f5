@@ -1,0 +1,13 @@
+package ch3.se2;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2020年4月4日 下午7:17:35 
+ * 类说明 
+ */
+public class DataDemo06 {
+	public static void main(String []arg){
+		float num = 3.0f; //定义float型变量
+		System.out.println("两个数相乘," + num ); //计算两数相乖
+	}
+
+}
