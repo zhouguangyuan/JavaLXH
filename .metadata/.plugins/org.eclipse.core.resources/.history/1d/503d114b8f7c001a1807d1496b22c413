@@ -1,0 +1,14 @@
+package ch3.se2;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2020年4月12日 下午3:26:45 
+ * 类说明 
+ */
+public class DataDefaultValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
