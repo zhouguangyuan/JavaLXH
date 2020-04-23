@@ -1,0 +1,21 @@
+package ch3.sec4;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2020年4月23日 上午10:33:57 
+ * 类说明 
+ */
+public class OperatorDemo04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(" 3 > 1 = " + (3 > 1));
+		System.out.println(" 3 < 1 = " + (3 < 1));
+		System.out.println(" 3 >= 1 = " + (3 >= 1));
+		System.out.println(" 3 < 1 = " + (3 < 1));
+		System.out.println(" 3 <= 1 = " + (3 <= 1));
+		System.out.println(" 3 == 1 = " + (3 == 1));
+		System.out.println(" 3 != 1 = " + (3 != 1));
+
+	}
+
+}
