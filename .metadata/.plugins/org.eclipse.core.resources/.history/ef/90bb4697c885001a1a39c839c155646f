@@ -1,0 +1,21 @@
+package ch3.sec4;
+/** 
+ * @author 作者 Kevin Zhou 
+ * @version 创建时间：2020年4月24日 上午9:07:15 
+ * 类说明 
+ */
+public class OperatorDemo09 {
+	public static void main(String[] args) {
+		//定义变量
+		int x = 10 / 0;
+		//输出变量值，除数为0，发生异常
+		System.out.println(" x = " + x);
+	}
+
+}
+
+
+/*
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+at ch3.sec4.OperatorDemo09.main(OperatorDemo09.java:10)
+*/
