@@ -1,0 +1,16 @@
+package ch3.sec5;
+
+/**
+ * @author Kelvin
+ * @version 2020年4月27日 下午2:40:03
+ * @class instruction
+ */
+public class DoWhileDemo {
+	public static void main(String[] args) {
+int x = 1;
+
+do{
+	
+}while;
+	}
+}

@@ -1,0 +1,19 @@
+package ch3.sec5;
+
+/**
+ * @author Kelvin
+ * @version 2020年4月27日 下午2:01:01
+ * @class instruction
+ */
+public class WhileDemo {
+	public static void main(String[] args) {
+		int x = 1;
+		int sum = 0;
+
+		while (x < 10) {
+			sum = sum + x;
+		}
+		System.out.println("sum is " + sum);
+
+	}
+}
