@@ -56,6 +56,8 @@
 		<item value="58" key="DIALOG_X_ORIGIN"/>
 		<item value="212" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="RenameInformationPopup">
+	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewPackageWizardPage">

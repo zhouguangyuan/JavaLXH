@@ -1,0 +1,109 @@
+package ch5.sec8;
+
+/**
+ * @author Kelvin
+ * @version 2020年8月19日 下午5:00:55
+ * @class instruction 接收本类的引用
+ */
+
+class Persons {
+	private String name;
+	private int age;
+	Books book;
+	Persons child;
+
+	public Persons() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Persons(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public Books getBook() {
+		return book;
+	}
+
+	public void setBook(Books book) {
+		this.book = book;
+	}
+
+	public Persons getChild() {
+		return child;
+	}
+
+	public void setChild(Persons child) {
+		this.child = child;
+	}
+
+}
+
+class Books {
+	private String title;
+	private float price;
+	private Persons person;
+
+	public Books() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Books(String title, Float price) {
+		this.title = title;
+		this.price = price;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public float getPrice() {
+		return price;
+	}
+
+	public void setPrice(float price) {
+		this.price = price;
+	}
+
+	public Persons getPersons() {
+		return person;
+	}
+
+	public void setPersons(Persons person) {
+		this.person = person;
+	}
+
+
+}
+
+public class RefDemo06 {
+
+	public static void main(String[] args) {
+		Person per = new Person("张三", 30);
+		Book bk = new Book("JAVA SE核心技术", 90.5f);
+		per.setBook(bk);
+		bk.setPerson(per);
+
+	}
+
+}
