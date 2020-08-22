@@ -1,6 +1,6 @@
 package ch5.sec2;
 
-import ch5.sec2.Person;
+import ch5.sec10.Person;
 
 /**
  * @author Kelvin

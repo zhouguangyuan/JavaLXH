@@ -1,0 +1,29 @@
+package ch5.sec10;
+
+/**
+ * @author Kelvin
+ * @version 2020年8月22日 下午8:15:27
+ * @class instruction
+ */
+class Demon {
+	static int count = 0;
+
+	public Demon() {
+		
+		System.out.println("Demon" + count);
+
+
+	}
+}
+
+public class StaticDemo07 {
+	public static void main(String[] args) {
+	 new Demon();
+	 new Demon();
+	 new Demon();
+	 new Demon();
+	 
+
+	}
+
+}
