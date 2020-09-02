@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="ch5.sec8.Book"/>
 <fullyQualifiedTypeName name="ch5.sec9.Person"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="ch5.sec15.Outer.Inner"/>
+<fullyQualifiedTypeName name="ch5.sec14.Outer.Inner"/>
 </qualifiedTypeNameHistroy>
