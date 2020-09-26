@@ -1,9 +1,0 @@
-package ch5.sec11;
-/** 
- * @author Kelvin 
- * @version 2020年8月28日 下午3:56:28 
- * @class instruction 
- */
-public class Singleton {
-
-}

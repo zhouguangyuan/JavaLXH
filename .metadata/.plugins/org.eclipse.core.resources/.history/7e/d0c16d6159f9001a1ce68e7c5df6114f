@@ -1,0 +1,9 @@
+package ch6.sec8;
+/** 
+ * @author Kelvin 
+ * @version 2020年9月18日 上午10:45:55 
+ * @class instruction 
+ */
+public class InstanceofDemo01 {
+
+}

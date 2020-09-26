@@ -1,0 +1,42 @@
+package ch6.sec9;
+
+/**
+ * @author Kelvin
+ * @version 2020年9月23日 上午11:36:38
+ * @class instruction
+ */
+
+interface Fruit {
+	public void eat();
+}
+
+class Apple implements Fruit {
+	public void eat() {
+		System.out.println("***Eat apple!");
+	}
+}
+
+class Orange implements Fruit {
+	public void eat() {
+		System.out.println("***Eat orange!");
+
+	}
+}
+
+class Factory {
+	public static Fruit getInstance(String classname){
+		Fruit f = null;
+		if("apple".equals(classname))
+			f = new Apple();
+		if("orange".equals(classname))
+			f = new Orange();
+		return f;
+	}
+}
+
+public class InterfaceCaceDemo04 {
+	public static void main(String[] args) {
+        Fruit f = new Apple();
+        f.eat();
+	}
+}
