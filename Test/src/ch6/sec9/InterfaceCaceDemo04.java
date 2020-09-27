@@ -2,7 +2,7 @@ package ch6.sec9;
 
 /**
  * @author Kelvin
- * @version 2020年9月23日 上午11:36:38
+ * @version 2020骞�9鏈�23鏃� 涓婂崍11:36:38
  * @class instruction
  */
 
@@ -39,6 +39,7 @@ public class InterfaceCaceDemo04 {
 		
         Fruit f = null;
         f = Factory.getInstance("orange");
+        f.eat();
         f.eat();
 	}
 }
