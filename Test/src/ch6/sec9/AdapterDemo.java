@@ -45,5 +45,4 @@ public class AdapterDemo {
 		win.open();
 		win.close();
 	}
-
 }
