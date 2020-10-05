@@ -11,15 +11,15 @@ package ch6.sec9;
  *
  */
 
-abstract class A {
+/*abstract class A {
 	public abstract void printA();
 
 	interface B {
 		public void printB();
 	}
-}
+}*/
 
-class X extends A {
+/*class X extends A {
 	public void printA() {
 		System.out.println("Hello-> A");
 	}
@@ -38,3 +38,4 @@ public class InnerExtDemo01 {
 	}
 
 }
+*/
